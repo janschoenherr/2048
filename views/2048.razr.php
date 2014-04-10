@@ -11,7 +11,7 @@
 @script('2048.game_manager', '2048/js/game_manager.js')
 @script('2048.application', '2048/js/application.js')
 
-<div class="container">
+<div class="game-2048 container">
     <div class="heading">
         <h1 class="title">2048</h1>
         <div class="scores-container">

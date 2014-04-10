@@ -8,7 +8,7 @@ return array(
 
     'autoload' => array(
 
-        'Pagekit\\_2048\\' => ''
+        'Pagekit\\_2048\\' => 'src'
 
     ),
 

@@ -1,10 +1,10 @@
 @import url(fonts/clear-sans.css);
-.heading:after {
+.game-2048 .heading:after {
   content: "";
   display: block;
   clear: both; }
 
-h1.title {
+.game-2048 h1.title {
   font-size: 46px;
   font-weight: bold;
   float: left; }
@@ -33,11 +33,11 @@ h1.title {
   100% {
     top: -50px;
     opacity: 0; } }
-.scores-container {
+.game-2048 .scores-container {
   float: right;
   text-align: right; }
 
-.score-container, .best-container {
+.game-2048 .score-container, .best-container {
   position: relative;
   display: inline-block;
   background: #bbada0;
@@ -50,7 +50,7 @@ h1.title {
   color: white;
   margin-top: 0px;
   text-align: center; }
-  .score-container:after, .best-container:after {
+  .game-2048 .score-container:after, .best-container:after {
     position: absolute;
     width: 100%;
     top: 10px;
@@ -60,7 +60,7 @@ h1.title {
     line-height: 13px;
     text-align: center;
     color: #eee4da; }
-  .score-container .score-addition, .best-container .score-addition {
+  .game-2048 .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
     color: red;
@@ -76,33 +76,33 @@ h1.title {
     -moz-animation-fill-mode: both;
     animation-fill-mode: both; }
 
-.score-container:after {
+.game-2048 .score-container:after {
   content: "Score"; }
 
-.best-container:after {
+.game-2048 .best-container:after {
   content: "Best"; }
 
-p {
+.game-2048 p {
   margin-top: 0;
   margin-bottom: 10px;
   line-height: 1.65; }
 
-a {
+.game-2048 a {
   color: #776e65;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
 
-strong.important {
+.game-2048 strong.important {
   text-transform: uppercase; }
 
-hr {
+.game-2048 hr {
   border: none;
   border-bottom: 1px solid #d8d4d0;
   margin-top: 20px;
   margin-bottom: 30px; }
 
-.container {
+.game-2048.container {
   width: 324px;
   margin: 0 auto; }
 
@@ -284,7 +284,7 @@ hr {
   -moz-transform: translate(235px, 235px);
   transform: translate(235px, 235px); }
 
-.tile {
+.game-2048 .tile {
   position: absolute;
   -webkit-transition: 100ms ease-in-out;
   -moz-transition: 100ms ease-in-out;
@@ -292,77 +292,77 @@ hr {
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
-  .tile .tile-inner {
+  .game-2048 .tile .tile-inner {
     border-radius: 3px;
     background: #eee4da;
     text-align: center;
     font-weight: bold;
     z-index: 10;
     font-size: 35px; }
-  .tile.tile-2 .tile-inner {
+  .game-2048 .tile.tile-2 .tile-inner {
     background: #eee4da;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-4 .tile-inner {
+  .game-2048 .tile.tile-4 .tile-inner {
     background: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-8 .tile-inner {
+  .game-2048 .tile.tile-8 .tile-inner {
     color: #f9f6f2;
     background: #f2b179; }
-  .tile.tile-16 .tile-inner {
+  .game-2048 .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     background: #f59563; }
-  .tile.tile-32 .tile-inner {
+  .game-2048 .tile.tile-32 .tile-inner {
     color: #f9f6f2;
     background: #f67c5f; }
-  .tile.tile-64 .tile-inner {
+  .game-2048 .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background: #f65e3b; }
-  .tile.tile-128 .tile-inner {
+  .game-2048 .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 35px; }
     @media screen and (max-width: 1219px) {
-      .tile.tile-128 .tile-inner {
+      .game-2048 .tile.tile-128 .tile-inner {
         font-size: 20px; } }
-  .tile.tile-256 .tile-inner {
+  .game-2048 .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background: #edcc61;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 35px; }
     @media screen and (max-width: 1219px) {
-      .tile.tile-256 .tile-inner {
+      .game-2048 .tile.tile-256 .tile-inner {
         font-size: 20px; } }
-  .tile.tile-512 .tile-inner {
+  .game-2048 .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 35px; }
     @media screen and (max-width: 1219px) {
-      .tile.tile-512 .tile-inner {
+      .game-2048 .tile.tile-512 .tile-inner {
         font-size: 20px; } }
-  .tile.tile-1024 .tile-inner {
+  .game-2048 .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background: #edc53f;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 15px; }
     @media screen and (max-width: 1219px) {
-      .tile.tile-1024 .tile-inner {
+      .game-2048 .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-2048 .tile-inner {
+  .game-2048 .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 15px; }
     @media screen and (max-width: 1219px) {
-      .tile.tile-2048 .tile-inner {
+      .game-2048 .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-super .tile-inner {
+  .game-2048 .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
     font-size: 25px; }
     @media screen and (max-width: 1219px) {
-      .tile.tile-super .tile-inner {
+      .game-2048 .tile.tile-super .tile-inner {
         font-size: 10px; } }
 
 @-webkit-keyframes appear {
@@ -463,7 +463,7 @@ hr {
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
 
-.restart-button {
+.game-2048 .restart-button {
   display: inline-block;
   background: #8f7a66;
   border-radius: 3px;
@@ -476,7 +476,7 @@ hr {
   text-align: center;
   margin-top: 10px; }
 
-.game-intro, .game-explanation {
+.game-2048 .game-intro, .game-2048 .game-explanation {
   margin-top: 20px; }
 
 @media screen and (max-width: 1219px) {
