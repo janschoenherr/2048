@@ -45,7 +45,7 @@ class GameWidget extends Type
             return __('This widget may be published once only.');
         }
         self::$created = true;
-        return $this('view')->render('2048/2048.razr.php');
+        return $this('view')->render('2048/2048.razr');
     }
 
     /**
