@@ -1,6 +1,6 @@
 {
     "name": "2048",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "type": "extension",
     "title": "2048",
     "description": "Dashboard Widget: Join the numbers and get to the 2048 tile! Inspired by Gabriele Cirulli's game avaiable at http://gabrielecirulli.github.io/2048/",
