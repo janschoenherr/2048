@@ -4,21 +4,21 @@ $app->on('system.dashboard', function(\Pagekit\Widget\Event\RegisterWidgetEvent 
     $event->register('Pagekit\_2048\GameWidget');
 });
 
-return array(
+return [
 
-    'autoload' => array(
+    'autoload' => [
 
         'Pagekit\\_2048\\' => 'src'
 
-    ),
+    ],
 
-    'resources' => array(
+    'resources' => [
 
-        'export' => array(
+        'export' => [
             'view'  => 'views',
             'asset' => 'assets'
-        )
+        ]
 
-    )
+    ]
 
-);
+];

@@ -39,7 +39,7 @@ class GameWidget extends Type
     /**
      * {@inheritdoc}
      */
-    public function render(WidgetInterface $widget, $options = array())
+    public function render(WidgetInterface $widget, $options = [])
     {
         if (self::$created) {
             return __('This widget may be published once only.');
