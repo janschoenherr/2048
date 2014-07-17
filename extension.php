@@ -10,15 +10,6 @@ return [
 
         'Pagekit\\_2048\\' => 'src'
 
-    ],
-
-    'resources' => [
-
-        'export' => [
-            'view'  => 'views',
-            'asset' => 'assets'
-        ]
-
     ]
 
 ];

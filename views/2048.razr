@@ -1,15 +1,15 @@
-@style('2048.main', '2048/style/main.css')
+@style('2048.main', 'extension://2048/assets/style/main.css')
 
-@script('2048.bind_polyfill', '2048/js/bind_polyfill.js')
-@script('2048.classlist_polyfill', '2048/js/classlist_polyfill.js')
-@script('2048.animframe_polyfill', '2048/js/animframe_polyfill.js')
-@script('2048.keyboard_input_manager', '2048/js/keyboard_input_manager.js')
-@script('2048.html_actuator', '2048/js/html_actuator.js')
-@script('2048.grid', '2048/js/grid.js')
-@script('2048.tile', '2048/js/tile.js')
-@script('2048.local_storage_manager', '2048/js/local_storage_manager.js')
-@script('2048.game_manager', '2048/js/game_manager.js')
-@script('2048.application', '2048/js/application.js')
+@script('2048.bind_polyfill', 'extension://2048/assets/js/bind_polyfill.js')
+@script('2048.classlist_polyfill', 'extension://2048/assets/js/classlist_polyfill.js')
+@script('2048.animframe_polyfill', 'extension://2048/assets/js/animframe_polyfill.js')
+@script('2048.keyboard_input_manager', 'extension://2048/assets/js/keyboard_input_manager.js')
+@script('2048.html_actuator', 'extension://2048/assets/js/html_actuator.js')
+@script('2048.grid', 'extension://2048/assets/js/grid.js')
+@script('2048.tile', 'extension://2048/assets/js/tile.js')
+@script('2048.local_storage_manager', 'extension://2048/assets/js/local_storage_manager.js')
+@script('2048.game_manager', 'extension://2048/assets/js/game_manager.js')
+@script('2048.application', 'extension://2048/assets/js/application.js')
 
 <div class="game-2048 container">
     <div class="heading">
